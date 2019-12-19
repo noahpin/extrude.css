@@ -19,14 +19,14 @@ To use extrude.css in your website, simply drop the stylesheet into your documen
 
 ### Extrusion
 
-To extrude an element, add the class `extrude` to an element. Finally you need to add one of the extrude type classes which can be found on the demo site : (https://dazon.xyz/extrude.css/)
+To extrude an element, add the class `extrude` to an element. Finally you need to add one of the extrude type classes which can be found on the demo site : (https://dazon.xyz/extrude.css/index)
 Full example:
 
 ```html
 <h1 class="extrude extrude-small-br-b-h">Example</h1>
 ```
 
-[Check out all the extrusion types here!](https://dazon.xyz/extrude.css/)
+[Check out all the extrusion types here!](https://dazon.xyz/extrude.css/index)
 
 ## Changing Colors & speed
 
