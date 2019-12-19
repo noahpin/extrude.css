@@ -6,11 +6,276 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>extrude.css</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="extrude.css">
+    <link rel="stylesheet" href="extrude/extrude.min.css">
+    <link rel="stylesheet" href="extrude/extrude.css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="center">
-        <div class="btn extrude extrude-xlarge-h">extrude!</div>
+        <h3 class="text"> extrude.css</h3>
+        <h1 class="text1">a simple extrusion css library</h1>
+        <select id="dropdown" onchange="getNewClass()">
+            <optgroup label="Bottom Right">
+                <optgroup label="Box Only">
+                    <option value="1">Small Hover</option>
+                    <option value="2">Medium Hover</option>
+                    <option value="3">Large Hover</option>
+                    <option value="4">xLarge Hover</option>
+                    <option value="5">Small</option>
+                    <option value="6">Medium</option>
+                    <option value="7">Large</option>
+                    <option value="8">xLarge</option>
+                </optgroup>
+                <optgroup label="Text Only">
+                    <option value="9">Small Hover</option>
+                    <option value="10">Medium Hover</option>
+                    <option value="11">Large Hover</option>
+                    <option value="12">xLarge Hover</option>
+                    <option value="13">Small</option>
+                    <option value="14">Medium</option>
+                    <option value="15">Large</option>
+                    <option value="16">xLarge</option>
+                </optgroup> 
+                <optgroup label="Text and Box">
+                    <option value="17">Small Hover</option>
+                    <option value="18">Medium Hover</option>
+                    <option value="19">Large Hover</option>
+                    <option value="20">xLarge Hover</option>
+                    <option value="21">Small</option>
+                    <option value="22">Medium</option>
+                    <option value="23">Large</option>
+                    <option value="24">xLarge</option>
+                </optgroup> 
+            </optgroup>
+            <optgroup label="Bottom">
+                <optgroup label="Box Only">
+                    <option value="25">Small Hover</option>
+                    <option value="26">Medium Hover</option>
+                    <option value="27">Large Hover</option>
+                    <option value="28">xLarge Hover</option>
+                    <option value="29">Small</option>
+                    <option value="30">Medium</option>
+                    <option value="31">Large</option>
+                    <option value="32">xLarge</option>
+                </optgroup>
+                <optgroup label="Text Only">
+                    <option value="33">Small Hover</option>
+                    <option value="34">Medium Hover</option>
+                    <option value="35">Large Hover</option>
+                    <option value="36">xLarge Hover</option>
+                    <option value="37">Small</option>
+                    <option value="38">Medium</option>
+                    <option value="39">Large</option>
+                    <option value="40">xLarge</option>
+                </optgroup> 
+                <optgroup label="Text and Box">
+                    <option value="41">Small Hover</option>
+                    <option value="42">Medium Hover</option>
+                    <option value="43">Large Hover</option>
+                    <option value="44">xLarge Hover</option>
+                    <option value="45">Small</option>
+                    <option value="46">Medium</option>
+                    <option value="47">Large</option>
+                    <option value="48">xLarge</option>
+                </optgroup> 
+            </optgroup>
+            <optgroup label="Bottom Left">
+                <optgroup label="Box Only">
+                    <option value="49">Small Hover</option>
+                    <option value="50">Medium Hover</option>
+                    <option value="51">Large Hover</option>
+                    <option value="52">xLarge Hover</option>
+                    <option value="53">Small</option>
+                    <option value="54">Medium</option>
+                    <option value="55">Large</option>
+                    <option value="56">xLarge</option>
+                </optgroup>
+                <optgroup label="Text Only">
+                    <option value="57">Small Hover</option>
+                    <option value="58">Medium Hover</option>
+                    <option value="59">Large Hover</option>
+                    <option value="60">xLarge Hover</option>
+                    <option value="61">Small</option>
+                    <option value="62">Medium</option>
+                    <option value="63">Large</option>
+                    <option value="64">xLarge</option>
+                </optgroup> 
+                <optgroup label="Text and Box">
+                    <option value="65">Small Hover</option>
+                    <option value="66">Medium Hover</option>
+                    <option value="67">Large Hover</option>
+                    <option value="68">xLarge Hover</option>
+                    <option value="69">Small</option>
+                    <option value="70">Medium</option>
+                    <option value="71">Large</option>
+                    <option value="72">xLarge</option>
+                </optgroup> 
+            </optgroup>
+            <optgroup label="Left">
+                <optgroup label="Box Only">
+                    <option value="73">Small Hover</option>
+                    <option value="74">Medium Hover</option>
+                    <option value="75">Large Hover</option>
+                    <option value="76">xLarge Hover</option>
+                    <option value="77">Small</option>
+                    <option value="78">Medium</option>
+                    <option value="79">Large</option>
+                    <option value="80">xLarge</option>
+                </optgroup>
+                <optgroup label="Text Only">
+                    <option value="81">Small Hover</option>
+                    <option value="82">Medium Hover</option>
+                    <option value="83">Large Hover</option>
+                    <option value="84">xLarge Hover</option>
+                    <option value="85">Small</option>
+                    <option value="86">Medium</option>
+                    <option value="87">Large</option>
+                    <option value="88">xLarge</option>
+                </optgroup> 
+                <optgroup label="Text and Box">
+                    <option value="89">Small Hover</option>
+                    <option value="90">Medium Hover</option>
+                    <option value="91">Large Hover</option>
+                    <option value="92">xLarge Hover</option>
+                    <option value="93">Small</option>
+                    <option value="94">Medium</option>
+                    <option value="95">Large</option>
+                    <option value="96">xLarge</option>
+                </optgroup> 
+            </optgroup>
+            <optgroup label="Top Left">
+                <optgroup label="Box Only">
+                    <option value="97">Small Hover</option>
+                    <option value="98">Medium Hover</option>
+                    <option value="99">Large Hover</option>
+                    <option value="100">xLarge Hover</option>
+                    <option value="101">Small</option>
+                    <option value="102">Medium</option>
+                    <option value="103">Large</option>
+                    <option value="104">xLarge</option>
+                </optgroup>
+                <optgroup label="Text Only">
+                    <option value="105">Small Hover</option>
+                    <option value="106">Medium Hover</option>
+                    <option value="107">Large Hover</option>
+                    <option value="108">xLarge Hover</option>
+                    <option value="109">Small</option>
+                    <option value="110">Medium</option>
+                    <option value="111">Large</option>
+                    <option value="112">xLarge</option>
+                </optgroup> 
+                <optgroup label="Text and Box">
+                    <option value="113">Small Hover</option>
+                    <option value="114">Medium Hover</option>
+                    <option value="115">Large Hover</option>
+                    <option value="116">xLarge Hover</option>
+                    <option value="117">Small</option>
+                    <option value="118">Medium</option>
+                    <option value="119">Large</option>
+                    <option value="120">xLarge</option>
+                </optgroup> 
+            </optgroup>
+            <optgroup label="Top">
+                <optgroup label="Box Only">
+                    <option value="121">Small Hover</option>
+                    <option value="122">Medium Hover</option>
+                    <option value="123">Large Hover</option>
+                    <option value="124">xLarge Hover</option>
+                    <option value="125">Small</option>
+                    <option value="126">Medium</option>
+                    <option value="127">Large</option>
+                    <option value="128">xLarge</option>
+                </optgroup>
+                <optgroup label="Text Only">
+                    <option value="129">Small Hover</option>
+                    <option value="130">Medium Hover</option>
+                    <option value="131">Large Hover</option>
+                    <option value="132">xLarge Hover</option>
+                    <option value="133">Small</option>
+                    <option value="134">Medium</option>
+                    <option value="135">Large</option>
+                    <option value="136">xLarge</option>
+                </optgroup> 
+                <optgroup label="Text and Box">
+                    <option value="137">Small Hover</option>
+                    <option value="138">Medium Hover</option>
+                    <option value="139">Large Hover</option>
+                    <option value="140">xLarge Hover</option>
+                    <option value="141">Small</option>
+                    <option value="142">Medium</option>
+                    <option value="143">Large</option>
+                    <option value="144">xLarge</option>
+                </optgroup> 
+            </optgroup>
+            <optgroup label="Top Right">
+                <optgroup label="Box Only">
+                    <option value="145">Small Hover</option>
+                    <option value="146">Medium Hover</option>
+                    <option value="147">Large Hover</option>
+                    <option value="148">xLarge Hover</option>
+                    <option value="149">Small</option>
+                    <option value="150">Medium</option>
+                    <option value="151">Large</option>
+                    <option value="152">xLarge</option>
+                </optgroup>
+                <optgroup label="Text Only">
+                    <option value="153">Small Hover</option>
+                    <option value="154">Medium Hover</option>
+                    <option value="155">Large Hover</option>
+                    <option value="156">xLarge Hover</option>
+                    <option value="157">Small</option>
+                    <option value="158">Medium</option>
+                    <option value="159">Large</option>
+                    <option value="160">xLarge</option>
+                </optgroup> 
+                <optgroup label="Text and Box">
+                    <option value="161">Small Hover</option>
+                    <option value="162">Medium Hover</option>
+                    <option value="163">Large Hover</option>
+                    <option value="164">xLarge Hover</option>
+                    <option value="165">Small</option>
+                    <option value="166">Medium</option>
+                    <option value="167">Large</option>
+                    <option value="168">xLarge</option>
+                </optgroup> 
+            </optgroup>
+            <optgroup label="Right">
+                <optgroup label="Box Only">
+                    <option value="169">Small Hover</option>
+                    <option value="170">Medium Hover</option>
+                    <option value="171">Large Hover</option>
+                    <option value="172">xLarge Hover</option>
+                    <option value="173">Small</option>
+                    <option value="174">Medium</option>
+                    <option value="175">Large</option>
+                    <option value="176">xLarge</option>
+                </optgroup>
+                <optgroup label="Text Only">
+                    <option value="177">Small Hover</option>
+                    <option value="178">Medium Hover</option>
+                    <option value="179">Large Hover</option>
+                    <option value="180">xLarge Hover</option>
+                    <option value="181">Small</option>
+                    <option value="182">Medium</option>
+                    <option value="183">Large</option>
+                    <option value="184">xLarge</option>
+                </optgroup> 
+                <optgroup label="Text and Box">
+                    <option value="185">Small Hover</option>
+                    <option value="186">Medium Hover</option>
+                    <option value="187">Large Hover</option>
+                    <option value="188">xLarge Hover</option>
+                    <option value="189">Small</option>
+                    <option value="190">Medium</option>
+                    <option value="191">Large</option>
+                    <option value="192">xLarge</option>
+                </optgroup> 
+            </optgroup>
+          </select>
+        <div class="btn extrude extrude-small-br-b-h" id="extrudeBtn">extrude!</div>
+        <p class="text2">class:</p>
+        <input type="text" id="text" value="extrude extrude-small-br-b-h" readonly>
     </div>
+    <script src="js/main.js"></script>
 </body>
 </html>

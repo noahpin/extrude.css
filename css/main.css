@@ -3,17 +3,47 @@
     left: 50%;
     top:50%;
     transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text{
+    font-size: 5vw;
+    margin:0;
+    padding-bottom: 0vh;
+}
+.text1
+{
+    font-size: 2vw;
+    margin: 0;
+    padding-bottom: 1vh;
+}
+.text2{
+    font-size: 2vw;
+    margin: 0;
+    padding-bottom: 0.5vh;
+    padding-top: 1vh;
 }
 body{
-    font-family: sans-serif;
+    font-family: 'Varela round', sans-serif;
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 .btn{
-    width: 13vw;
-    
+    width: 10vw;
     text-align: center;
     padding:.5vw;
-    border: .5vw solid blue;
+    border: .5vw solid rgb(76, 0, 255);
+    background-color: rgb(76, 0, 255);
+    color:white;
     border-radius: 1.4vw;
+    margin: auto;
+}
+select{
+    margin-bottom: 3vh;
+}
+input{
+    width: 30em;
+    background-color: rgb(231, 231, 231);
+    border: none;
+    padding:1vh;
+    border-radius:.75vh;
 }
